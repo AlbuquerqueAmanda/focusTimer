@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    background-image: linear-gradient(to left, #9fd6d2 , #d0ecea, #fffee4);
+    color: #1a1818;
+}
+.name {
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.quote {
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.box {
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    background-color: #d0ecea;
+    margin-left: 430px;
+    margin-top: 150px;
+    border-radius: 5px;
+}
+#play-bt {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 75px;
+    width: 150px;
+    height: 45px;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 25px;
+    font-weight: 500;
+    border: 2px solid #1a1818;
+    border-radius: 5px;
+}
+#rest-bt {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 265px;
+    width: 150px;
+    height: 45px;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 25px;
+    font-weight: 500;
+    border: 2px solid #1a1818;
+    border-radius: 5px;
+}
+#counter {
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+}
